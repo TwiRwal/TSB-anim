@@ -1001,6 +1001,7 @@ end)
 
 
 local Tab = Window:NewTab("Wall combo")
+local Section = Tab:NewSection("Wall combo")
 Section:NewButton("Garou", "wall combo garou", function()
 local player = game.Players.LocalPlayer
 repeat wait() until player.Character.Humanoid
@@ -1019,6 +1020,7 @@ end)
 
 
 local Tab = Window:NewTab("Spawn anims")
+local Section = Tab:NewSection("Spawn animations")
 Section:NewButton("Garou", "spawn", function()
 local player = game.Players.LocalPlayer
 repeat wait() until player.Character.Humanoid
