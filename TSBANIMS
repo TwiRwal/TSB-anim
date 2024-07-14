@@ -804,6 +804,20 @@ soundeffect.Volume = 1
  end)
 local Tab = Window:NewTab("Ultimates")
 local Section = Tab:NewSection("Ultimates")
+Section:NewButton("Saitama", "saitama ult", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://12447707844"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
 Section:NewButton("Sonic", "Sonic's Ultimate", function()
 local player = game.Players.LocalPlayer
 repeat wait() until player.Character.Humanoid
@@ -881,8 +895,3 @@ local playAnim = humanoid:LoadAnimation(anim)
 playAnim:Play()
 
 end)
-
-
-
-
-
