@@ -994,3 +994,56 @@ local playAnim = humanoid:LoadAnimation(anim)
 playAnim:Play()
 
 end)
+
+
+
+
+
+
+local Tab = Window:NewTab("Wall combo")
+Section:NewButton("Garou", "wall combo garou", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://16310343179"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+
+
+
+local Tab = Window:NewTab("Spawn anims")
+Section:NewButton("Garou", "spawn", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://15957376722"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Metal bat", "spawn", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://15957371124"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
