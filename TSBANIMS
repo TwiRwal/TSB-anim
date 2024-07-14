@@ -341,6 +341,21 @@ local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
 
 end)
+local Section = Tab:NewSection("Sonic")
+Section:NewButton("2nd move", "sh", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://13294790250"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
 local soundeffect = Instance.new("Sound")
 soundeffect.SoundId = "rbxassetid://0"
 soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
@@ -589,6 +604,21 @@ local UserInputService = game:GetService("UserInputService")
 
 local anim2 = Instance.new("Animation")
 anim2.AnimationId = "rbxassetid://16737255386"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+local Section = Tab:NewSection("Sonic")
+Section:NewButton("1st move", "i forgot this sh name again", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://13633468484"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
