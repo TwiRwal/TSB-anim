@@ -1,0 +1,1463 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Animations", "GrapeTheme")
+local Tab = Window:NewTab("Moves")
+local Section = Tab:NewSection("KJ")
+Section:NewButton("Ravage Player", "Ravage move", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://16945573694"
+
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+wait(0.7)
+
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://16945550029"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(1.2)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.4)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.4)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.1)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(1.7)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+end)
+Section:NewButton("Ravage (fake) Finisher Player", "Ravage move (fake) Finisher", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://16945573694"
+
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+wait(0.7)
+
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://16945550029"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(1.2)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.4)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.4)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.1)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(1.7)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+local anim3 = Instance.new("Animation")
+anim3.AnimationId = "rbxassetid://14809836765"
+
+
+local playAnim3 = humanoid:LoadAnimation(anim3)
+playAnim3:Play()
+playAnim2:Stop()
+end)
+Section:NewButton("Ravage Usage", "KJ first move miss", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://16945573694"
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+
+wait(0.3)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325528401"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+end)
+Section:NewButton("Ravage Victim", "KJ first move Victim", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://16945557433"
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(1.2)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.4)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.4)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.1)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(0.08)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+wait(1.7)
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+end)
+local Section = Tab:NewSection("Suiryu")
+Section:NewButton("Bullet Barrage", "Suiryu First Move", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://17799224866"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Vanishing Kick", "Suiryu Second Move", function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://17838006839"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Vanishing Kick Second Part", "Suiryu Second Move Second Part", function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 130
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://17838619895"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Whirlwind Drop", "Suiryu Third Move", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://17857788598"
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+wait(0.6)
+playAnim:Stop()
+
+end)
+local Section = Tab:NewSection("Garou")
+Section:NewButton("Lethal Whirlwind Finisher", "Garou 2nd Move Finisher", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://14798608838"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Lethal Whirlwind Finisher Victim", "Garou 2nd Move Finisher Victim", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://14798721934"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Prey's Peril Finisher", "Garou 4th Move Finisher", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://14809836765"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Prey's Peril Finisher Victim", "Garou 4th Move Finisher Victim", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://14809854900"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://0"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+local Section = Tab:NewSection("Metal Bat")
+Section:NewButton("Homerun", "Homerun First Move", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://14004235777"
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+end)
+Section:NewButton("Homerun Finisher", "Homerun First Move Finisher", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://14004235777"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+wait(0.3)
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://14348708797"
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+playAnim2:Stop()
+end)
+Section:NewButton("Beatdown", "Metal Bat Second Move", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://14046756619"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Beatdown Victim", "Metal Bat Second Move Victim", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://14055425251"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+local Tab = Window:NewTab("Ultimate Moves")
+local Section = Tab:NewSection("Tatsumaki")
+Section:NewButton("Terrible Tornado Player", "Tatsumaki Second Ult Move", function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://17278415853"
+
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+game.Players.LocalPlayer.Character.Torso.GreenAura.Real.Enabled = false
+game.Players.LocalPlayer.Character.Torso.GreenAura.Real2.Enabled = false
+wait(0.8)
+local effect = game.ReplicatedStorage.Resources.TerribleTornado.DragWind.DragWind.DustEmitter1:Clone()
+effect.Parent = game.Players.LocalPlayer.Character.Torso
+    for _, child in ipairs(effect:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+local effect2 = game.ReplicatedStorage.Resources.TerribleTornado.DragWind.DragWind.DustEmitter1:Clone()
+effect2.Parent = game.Players.LocalPlayer.Character.Torso
+    for _, child in ipairs(effect2:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+local effect3 = game.ReplicatedStorage.Resources.TerribleTornado.DragWind.DragWind.dashleft:Clone()
+effect3.Parent = game.Players.LocalPlayer.Character.Torso
+    for _, child in ipairs(effect3:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+local effect4 = game.ReplicatedStorage.Resources.TerribleTornado.DragWind.DragWind.dashright:Clone()
+effect4.Parent = game.Players.LocalPlayer.Character.Torso
+    for _, child in ipairs(effect4:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+wait(2.7)
+effect:Destroy()
+effect2:Destroy()
+effect3:Destroy()
+effect4:Destroy()
+wait(0.8)
+local charge = game.ReplicatedStorage.Resources.TerribleTornado.HandCharge.Part.Attachment:Clone()
+charge.Parent = game.Players.LocalPlayer.Character["Right Arm"]
+    for _, child in ipairs(charge:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+game.Lighting.ClockTime = 0
+wait(3.6)
+charge:Destroy()
+
+local hit2 = game.ReplicatedStorage.Resources.TerribleTornado.ohye.Ohye.Attachment:Clone()
+hit2.Parent = game.Players.LocalPlayer.Character["Right Arm"]
+    for _, child in ipairs(hit2:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+wait(5)
+hit2:Destroy()
+hit:Destroy()
+game.Lighting.ClockTime = 12.303
+end)
+Section:NewButton("Terrible Tornado Enemy", "Tatsumaki Second Ult Move Enemy", function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://17275798442"
+
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+game.Players.LocalPlayer.Character.Torso.GreenAura.Real.Enabled = false
+game.Players.LocalPlayer.Character.Torso.GreenAura.Real2.Enabled = false
+wait(0.8)
+local effect = game.ReplicatedStorage.Resources.TerribleTornado.DragWind.DragWind.DustEmitter1:Clone()
+effect.Parent = game.Players.LocalPlayer.Character.Torso
+    for _, child in ipairs(effect:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+local effect2 = game.ReplicatedStorage.Resources.TerribleTornado.DragWind.DragWind.DustEmitter1:Clone()
+effect2.Parent = game.Players.LocalPlayer.Character.Torso
+    for _, child in ipairs(effect2:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+local effect3 = game.ReplicatedStorage.Resources.TerribleTornado.DragWind.DragWind.dashleft:Clone()
+effect3.Parent = game.Players.LocalPlayer.Character.Torso
+    for _, child in ipairs(effect3:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+local effect4 = game.ReplicatedStorage.Resources.TerribleTornado.DragWind.DragWind.dashright:Clone()
+effect4.Parent = game.Players.LocalPlayer.Character.Torso
+    for _, child in ipairs(effect4:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+wait(2.7)
+effect:Destroy()
+effect2:Destroy()
+effect3:Destroy()
+effect4:Destroy()
+wait(4.6)
+local hit2 = game.ReplicatedStorage.Resources.TerribleTornado.ohye.Ohye.Attachment:Clone()
+hit2.Parent = game.Players.LocalPlayer.Character.Head
+    for _, child in ipairs(hit2:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+wait(5)
+hit2:Destroy()
+hit:Destroy()
+end)
+Section:NewButton("Ricochet Victim", "Tatsumaki Second Ult Move Victim", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://17466449380"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Ricochet Player", "Tatsumaki Second Ult Move Player", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://17464644182"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Cosmic Strike", "Tatsumaki First Ult Move", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://16737255386"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+local Section = Tab:NewSection("Metal Bat")
+Section:NewButton("Brutal Beatdown", "Metal's Second Ult Move", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://14701242661"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Death Blow Enemy", "Metal's Fourth Ult Move Enemy", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://15123914491"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Death Blow Enemy Weapon", "Metal's Fourth Ult Move Enemy Weapon", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://15129887320"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Death Blow", "Metal's Fourth Ult Move", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://15123665491"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+local Section = Tab:NewSection("Atomic Samurai")
+Section:NewButton("Sunrise Miss", "Atomic Samurai 3rd Ult Move Missed", function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://16062410809"
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+end)
+Section:NewButton("Sunrise Victim", "Atomic Samurai 1st Ult Move Victim", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://16065180813"
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+end)
+Section:NewButton("Sunrise", "Atomic Samurai 3rd Ult Move", function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://16062410809"
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+wait(1.6)
+playAnim:Stop()
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://16062712948"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Atomic Slash", "Atomic Samurai 4th Ult Move", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://16082123712"
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+wait(3.6)
+playAnim:Stop()
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://16057411888"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Atomic Slash Miss", "Atomic Samurai 4th Ult Move Miss", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://16082123712"
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+
+end)
+Section:NewButton("Atomic Slash Victim", "Atomic Samurai 4th Ult Move Victim", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://16057182201"
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+
+end)
+local Section = Tab:NewSection("Garou")
+Section:NewButton("Rock Splitting Fist", "Garou 3rd Ult Move", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://14057231976"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Crushed Rock Land", "Garou 4th Ult Move Land", function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 60
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim1 = Instance.new("Animation")
+anim1.AnimationId = "rbxassetid://13630786846"
+
+local playAnim1 = humanoid:LoadAnimation(anim1)
+playAnim1:Play()
+wait(0.6)
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://13813099821"
+playAnim1:Stop()
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Crushed Rock", "Garou 4th Ult Move", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim1 = Instance.new("Animation")
+anim1.AnimationId = "rbxassetid://13630786846"
+
+local playAnim1 = humanoid:LoadAnimation(anim1)
+playAnim1:Play()
+
+end)
+Section:NewButton("Crushed Rock Victim", "Garou 4th Ult Move Victim", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://13784794366"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+local Section = Tab:NewSection("KJ")
+Section:NewButton("20-20-20 Dropkick Miss (must not have auto run)", "KJ's Second Ult Move", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17429233290"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://17354976067"
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+local effect = game.ReplicatedStorage.Resources.KJEffects.speedlinesandstuff.thespeedthingunderultik.floorspeed:Clone()
+effect.Parent = game.Players.LocalPlayer.Character.Torso
+    for _, child in ipairs(effect:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+local effect2 = game.ReplicatedStorage.Resources.KJEffects.speedlinesandstuff.thespeedthingunderultik.Attachment:Clone()
+effect2.Parent = game.Players.LocalPlayer.Character.Torso
+    for _, child in ipairs(effect2:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 300
+
+wait(8)
+
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+end)
+Section:NewButton("KJ", "KJ's Ultimate", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17150550302"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://17140902079"
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+local fine = game.ReplicatedStorage.Resources.KJEffects["fine...1"].EnableBatch2:Clone()
+fine.Parent = game.Players.LocalPlayer.Character["Torso"]
+    for _, child in ipairs(fine:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+local red = game.ReplicatedStorage.Resources.KJEffects["fine...1"].REDDDD1:Clone()
+red.Parent = game.Players.LocalPlayer.Character["Right Leg"]
+    for _, child in ipairs(red:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+local red2 = game.ReplicatedStorage.Resources.KJEffects["fine...1"].REDDDD2:Clone()
+red2.Parent = game.Players.LocalPlayer.Character["Left Leg"]
+    for _, child in ipairs(red2:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+local red3 = game.ReplicatedStorage.Resources.KJEffects["fine...1"].REDDDD3:Clone()
+red3.Parent = game.Players.LocalPlayer.Character["Left Leg"]
+    for _, child in ipairs(red3:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+local red4 = game.ReplicatedStorage.Resources.KJEffects["fine...1"].REDDDD4:Clone()
+red4.Parent = game.Players.LocalPlayer.Character["Right Leg"]
+    for _, child in ipairs(red4:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+wait(8.2)
+fine:Destroy()
+red:Destroy()
+red2:Destroy()
+red3:Destroy()
+red4:Destroy()
+local fine2 = game.ReplicatedStorage.Resources.KJEffects["fine...Emit2"].EmitBatch1:Clone()
+fine2.Parent = game.Players.LocalPlayer.Character["Right Arm"]
+    for _, child in ipairs(fine2:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+end)
+Section:NewButton("20-20-20 Dropkick Enemy", "KJ's Second Ult Move Enemy", function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 0
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://17363256069"
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+
+
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://0"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+ end)
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+Section:NewButton("20-20-20 Dropkick Player", "KJ's Second Ult Move Player", function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 300
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://17354976067"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17429233290"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+wait(5)
+soundeffect:Stop()
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://17420452843"
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17325540665"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+playAnim2:Stop()
+end)
+local Tab = Window:NewTab("Ultimates")
+local Section = Tab:NewSection("Ultimates")
+Section:NewButton("KJ", "KJ's Ultimate", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://17150550302"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://17140902079"
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+local fine = game.ReplicatedStorage.Resources.KJEffects["fine...1"].EnableBatch2:Clone()
+fine.Parent = game.Players.LocalPlayer.Character["Torso"]
+    for _, child in ipairs(fine:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+local red = game.ReplicatedStorage.Resources.KJEffects["fine...1"].REDDDD1:Clone()
+red.Parent = game.Players.LocalPlayer.Character["Right Leg"]
+    for _, child in ipairs(red:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+local red2 = game.ReplicatedStorage.Resources.KJEffects["fine...1"].REDDDD2:Clone()
+red2.Parent = game.Players.LocalPlayer.Character["Left Leg"]
+    for _, child in ipairs(red2:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+local red3 = game.ReplicatedStorage.Resources.KJEffects["fine...1"].REDDDD3:Clone()
+red3.Parent = game.Players.LocalPlayer.Character["Left Leg"]
+    for _, child in ipairs(red3:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+local red4 = game.ReplicatedStorage.Resources.KJEffects["fine...1"].REDDDD4:Clone()
+red4.Parent = game.Players.LocalPlayer.Character["Right Leg"]
+    for _, child in ipairs(red4:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+wait(8.2)
+fine:Destroy()
+red:Destroy()
+red2:Destroy()
+red3:Destroy()
+red4:Destroy()
+local fine2 = game.ReplicatedStorage.Resources.KJEffects["fine...Emit2"].EmitBatch1:Clone()
+fine2.Parent = game.Players.LocalPlayer.Character["Right Arm"]
+    for _, child in ipairs(fine2:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+end)
+Section:NewButton("Sonic", "Sonic's Ultimate", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://13499771836"
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+wait(2.3)
+game.Players.LocalPlayer.Character.Head.Transparency = 1
+game.Players.LocalPlayer.Character.Torso.Transparency = 1
+game.Players.LocalPlayer.Character["Left Arm"].Transparency = 1
+game.Players.LocalPlayer.Character["Right Arm"].Transparency = 1
+game.Players.LocalPlayer.Character["Left Leg"].Transparency = 1
+game.Players.LocalPlayer.Character["Right Leg"].Transparency = 1
+game.Players.LocalPlayer.Character.Head.face.Transparency = 1
+wait(2)
+game.Players.LocalPlayer.Character.Head.Transparency = 0
+game.Players.LocalPlayer.Character.Torso.Transparency = 0
+game.Players.LocalPlayer.Character["Left Arm"].Transparency = 0
+game.Players.LocalPlayer.Character["Right Arm"].Transparency = 0
+game.Players.LocalPlayer.Character["Left Leg"].Transparency = 0
+game.Players.LocalPlayer.Character["Right Leg"].Transparency = 0
+game.Players.LocalPlayer.Character.Head.face.Transparency = 0
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://13497875049"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+end)
+Section:NewButton("Atomic Samurai", "Samurai's Ultimate", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://15391323441"
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+end)
+Section:NewButton("Tatsumaki", "Tatsumaki's Ultimate", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://16734584478"
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+end)
+
+Section:NewButton("Genos", "Genos's Ultimate", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://12772543293"
+
+local playAnim = humanoid:LoadAnimation(anim)
+playAnim:Play()
+
+end)
+
+
+
+
+
