@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Animations [deleted some bannable animations] Added saitama anims and more", "GrapeTheme")
+local Window = Library.CreateLib("Animations [deleted some bannable animations] updated today", "GrapeTheme")
 local Tab = Window:NewTab("Moves")
 local Section = Tab:NewSection("KJ")
 Section:NewButton("Ravage Victim", "KJ first move Victim", function()
