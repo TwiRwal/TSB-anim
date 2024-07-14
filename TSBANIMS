@@ -1077,3 +1077,9 @@ local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
 
 end)
+
+local Tab = Window:NewTab("settings")
+local Section = Tab:NewSection("toggle ui")
+Section:NewKeybind("Key E", "F", Enum.KeyCode.E, function()
+	Library:ToggleUI()
+end)
