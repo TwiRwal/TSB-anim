@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Animations [deleted some bannable animations]", "GrapeTheme")
+local Window = Library.CreateLib("Animations [deleted some bannable animations] Added saitama anims and more", "GrapeTheme")
 local Tab = Window:NewTab("Moves")
 local Section = Tab:NewSection("KJ")
 Section:NewButton("Ravage Victim", "KJ first move Victim", function()
@@ -552,6 +552,20 @@ playAnim2:Play()
 
 end)
 local Section = Tab:NewSection("Metal Bat")
+Section:NewButton("1st move (forgot move name lol)", "table", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://14719290328"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
 Section:NewButton("Brutal Beatdown", "Metal's Second Ult Move", function()
 local player = game.Players.LocalPlayer
 repeat wait() until player.Character.Humanoid
@@ -589,6 +603,20 @@ local UserInputService = game:GetService("UserInputService")
 
 local anim2 = Instance.new("Animation")
 anim2.AnimationId = "rbxassetid://15129887320"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Death blow miss", "miss", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://15128849047"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
@@ -851,6 +879,20 @@ anim2.AnimationId = "rbxassetid://13497875049"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
+end)
+Section:NewButton("Metal bat", "matatata", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://14733282425"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
 end)
 Section:NewButton("Atomic Samurai", "Samurai's Ultimate", function()
 local player = game.Players.LocalPlayer
