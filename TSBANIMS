@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Animations [deleted some bannable animations] updated wall combo", "GrapeTheme")
+local Window = Library.CreateLib("Animations [deleted some bannable animations] updated spawn anims", "GrapeTheme")
 local Tab = Window:NewTab("Moves")
 local Section = Tab:NewSection("KJ")
 Section:NewButton("Ravage Victim", "KJ first move Victim", function()
@@ -680,6 +680,20 @@ playAnim2:Play()
 
 end)
 local Section = Tab:NewSection("Atomic Samurai")
+Section:NewButton("2nd move finisher", "finish", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://15279910941"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
 Section:NewButton("Sunrise Miss", "Atomic Samurai 3rd Ult Move Missed", function()
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
 local player = game.Players.LocalPlayer
@@ -1044,6 +1058,20 @@ local UserInputService = game:GetService("UserInputService")
 
 local anim2 = Instance.new("Animation")
 anim2.AnimationId = "rbxassetid://15957371124"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Atomic (blade master)", "spawn", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://15983615423"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
