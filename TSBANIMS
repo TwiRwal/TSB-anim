@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Animations [deleted some bannable animations] im back", "GrapeTheme")
+local Window = Library.CreateLib("Animations [deleted some bannable animations] Suiryu update", "GrapeTheme")
 local Tab = Window:NewTab("Moves")
 local Section = Tab:NewSection("KJ")
 Section:NewButton("Ravage Victim", "KJ first move Victim", function()
@@ -1369,6 +1369,20 @@ local UserInputService = game:GetService("UserInputService")
 
 local anim2 = Instance.new("Animation")
 anim2.AnimationId = "rbxassetid://13721154327"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("Tornado", "tornado", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://18459285150"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
