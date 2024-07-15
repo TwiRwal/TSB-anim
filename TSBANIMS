@@ -709,6 +709,64 @@ local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
 
 end)
+local Section = Tab:NewSection("Genos")
+Section:NewButton("1st move", "1", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://14721837245"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("2nd move", "2", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://12832505612"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("3rd move", "3rd", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://13083332742"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+Section:NewButton("incinerate", "incinerate", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://13146710762"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
+
 local Section = Tab:NewSection("Atomic Samurai")
 Section:NewButton("2nd move finisher", "finish", function()
 local player = game.Players.LocalPlayer
@@ -1246,48 +1304,7 @@ local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
 
 end)
-Section:NewButton("Sleepy", "sleep", function()
-local player = game.Players.LocalPlayer
-repeat wait() until player.Character.Humanoid
-local humanoid = player.Character.Humanoid
-local character = player.Character or player.CharacterAdded:Wait()
-local UserInputService = game:GetService("UserInputService")
 
-local anim2 = Instance.new("Animation")
-anim2.AnimationId = "rbxassetid://14348083862"
-
-local playAnim2 = humanoid:LoadAnimation(anim2)
-playAnim2:Play()
-
-end)
-Section:NewButton("Bring it", "bring", function()
-local player = game.Players.LocalPlayer
-repeat wait() until player.Character.Humanoid
-local humanoid = player.Character.Humanoid
-local character = player.Character or player.CharacterAdded:Wait()
-local UserInputService = game:GetService("UserInputService")
-
-local anim2 = Instance.new("Animation")
-anim2.AnimationId = "rbxassetid://13801083337"
-
-local playAnim2 = humanoid:LoadAnimation(anim2)
-playAnim2:Play()
-
-end)
-Section:NewButton("Kneel", "kneel", function()
-local player = game.Players.LocalPlayer
-repeat wait() until player.Character.Humanoid
-local humanoid = player.Character.Humanoid
-local character = player.Character or player.CharacterAdded:Wait()
-local UserInputService = game:GetService("UserInputService")
-
-local anim2 = Instance.new("Animation")
-anim2.AnimationId = "rbxassetid://13721154327"
-
-local playAnim2 = humanoid:LoadAnimation(anim2)
-playAnim2:Play()
-
-end)
 
 local Tab = Window:NewTab("settings")
 local Section = Tab:NewSection("toggle ui")
