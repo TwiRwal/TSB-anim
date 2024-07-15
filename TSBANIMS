@@ -1104,6 +1104,20 @@ end)
 
 local Tab = Window:NewTab("Wall combo")
 local Section = Tab:NewSection("Wall combo")
+Section:NewButton("Suiryu", "wall", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://18181589384"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
 Section:NewButton("Garou", "wall combo garou", function()
 local player = game.Players.LocalPlayer
 repeat wait() until player.Character.Humanoid
@@ -1204,6 +1218,20 @@ playAnim2:Play()
 end)
 local Tab = Window:NewTab("Spawn anims")
 local Section = Tab:NewSection("Spawn animations")
+Section:NewButton("Suiryu", "suiryu", function()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://18435303746"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+end)
 Section:NewButton("Saitama", "ma", function()
 local player = game.Players.LocalPlayer
 repeat wait() until player.Character.Humanoid
