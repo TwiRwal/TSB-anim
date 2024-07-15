@@ -1389,8 +1389,8 @@ playAnim2:Play()
 
 end)
 local Tab = Window:NewTab("KJ Re added")
-local Section = Tab:NewSection("KJ re-add this is what you guys asking for dont mind me if you banned")
-Section:NewButton("20-20-20 Dropkick Miss", "KJ's Second Ult Move", function()
+local Section = Tab:NewSection("KJ re-add this is what you guys asking for ⚠️bannable⚠️")
+Section:NewButton("20-20-20 Dropkick Miss⚠️", "KJ's Second Ult Move", function()
 local player = game.Players.LocalPlayer
 repeat wait() until player.Character.Humanoid
 local humanoid = player.Character.Humanoid
@@ -1521,7 +1521,7 @@ soundeffect:Play()
 soundeffect.Volume = 1
  end)
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
-Section:NewButton("20-20-20 Dropkick Player", "KJ's Second Ult Move Player", function()
+Section:NewButton("20-20-20 Dropkick Player", "KJ's Second Ult Move Player⚠️", function()
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 300
 local player = game.Players.LocalPlayer
 repeat wait() until player.Character.Humanoid
