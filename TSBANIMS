@@ -1231,7 +1231,7 @@ playAnim2:Play()
 
 end)
 local Tab = Window:NewTab("Emotes")
-local Section = Tab:NewSection("Emotes (adding more soon its a bit goofy)")
+local Section = Tab:NewSection("Emotes (adding more soon but a bit goofy)")
 Section:NewButton("L", "L", function()
 local player = game.Players.LocalPlayer
 repeat wait() until player.Character.Humanoid
